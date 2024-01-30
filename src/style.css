@@ -1,0 +1,37 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  --primary: #0069ce;
+  --primary-filter: brightness(0%) invert(26%) sepia(59%) saturate(2504%) hue-rotate(194deg) brightness(101%) contrast(102%);
+  --secondary: #59a0f1;
+  --secondary-filter: brightness(0%) invert(57%) sepia(22%) saturate(1356%) hue-rotate(175deg) brightness(102%) contrast(89%);
+  --text: #ffffff;
+  --text-secondary: #ffffff9c;
+  --background: #23272a;
+  --background-filter: brightness(0%) invert(13%) sepia(7%) saturate(774%) hue-rotate(163deg) brightness(93%) contrast(93%);
+  --background-secondary: #3c3f42;
+  --background-secondary-filter: brightness(0%) invert(22%) sepia(4%) saturate(692%) hue-rotate(169deg) brightness(98%) contrast(90%);
+  --background-tertiary: #F7F0F0;
+  --cancel: #272635;
+  --cancel-secondary: #D34848;
+  --cancel-tertiary: #ffa7a7;
+}
+
+@font-face {
+  font-family: 'Azonix';
+  src: url('./assets/fonts/AzonixRegular.woff2') format('woff2'),
+    url('./assets/fonts/AzonixRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}

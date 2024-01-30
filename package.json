@@ -1,0 +1,27 @@
+{
+  "name": "tcc-kami-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 4000",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifpi-picos/tcc-kami-frontend"
+  },
+  "keywords": [],
+  "author": "alanfilho184",
+  "license": "CC BY-NC-ND 4.0",
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.0"
+  }
+}
